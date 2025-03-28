@@ -6,4 +6,4 @@ Script and styles for Yandex Map:
 + create popups for markers: show on marker click, hide on close icon click;
 + apply a monochrome map style and hide transport icons/labels.
 
-You can view the map here — https://examples.justaway.tech/ya-map/
+You can view the map here — http://examples.justaway.tech/ya-map/
