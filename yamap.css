@@ -1,0 +1,90 @@
+.ymaps3x0--marker.hover {
+  z-index: 999 !important;
+}
+
+.ymaps3x0--marker.active {
+  z-index: 999 !important;
+}
+
+.ymaps3x0--marker .ymaps3--hint {
+  height: 25px;
+  padding: 4px 12px 5px 20px;
+  overflow: hidden;
+}
+
+.ymaps3x0--marker .ymaps3--hint-title,
+.ymaps3x0--marker .ymaps3--hint-subtitle {
+  transition: .3s all ease-in-out;
+}
+
+.ymaps3x0--marker .ymaps3--hint-title {
+  min-height: 16px;
+
+  color: #7b7d85;
+  font-size: 12px;
+  font-weight: 400;
+
+  transition: .3s all ease-in-out;
+}
+
+.ymaps3x0--marker .ymaps3--hint-subtitle {
+  opacity: 0;
+  transform: translateY(-50px);
+}
+
+.ymaps3x0--marker.hover .ymaps3--hint {
+  height: 41px;
+}
+
+.ymaps3x0--marker.hover .ymaps3--hint-title {
+  color: #050d33;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.ymaps3x0--marker.hover .ymaps3--hint-subtitle {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.popup {
+  position: relative;
+}
+
+.popup .popup__info {
+  padding-right: 25px;
+}
+
+.popup .close_popup {
+  position: absolute;
+
+  top: 0;
+  right: 0;
+
+  background: none;
+  text-shadow: none;
+
+  border: none;
+  outline: none;
+  border-radius: 0;
+
+  padding: 0;
+
+  box-shadow: none;
+}
+
+.popup .close_popup::before {
+  content: '\2716';
+
+  font-size: 14px;
+  font-weight: 400;
+  color: #cdcdcd;
+
+  opacity: .5;
+  transition: .3s all ease-in-out;
+  cursor: pointer;
+}
+
+.popup .close_popup:hover::before {
+  opacity: 1;
+}
